@@ -1,0 +1,44 @@
+
+.todos input.textfield {
+  width: 480px;
+  height: 36px;
+  margin-right: 25px;
+  vertical-align: top;
+}
+
+.todos input.checkbox {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  position: relative;
+  top: 5px;
+}
+
+.todos .checked {
+  text-decoration: line-through;
+}
+
+.todos button {
+  height: 43px;
+  font-size: 1.1em;
+  vertical-align: top;
+  border: solid 1px #ff6200;
+  border-radius: 2px;
+  background-color: #d55100;
+  color: white;
+}
+
+.todos .delete-icon {
+  diplay: inline-block;
+  cursor: pointer;
+  color: #d55100;
+}
+li{
+  list-style: none;
+}
+ul{
+  font-size: 35px;
+}
+.TEXT{
+  margin-right: 5px;
+}
